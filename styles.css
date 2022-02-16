@@ -1,17 +1,24 @@
 * {
-  /* background-color: bisque; */
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
   text-align: center;
-  flex-direction: column;
 }
 
-header {
-  background-color: white;
+div.score {
+  margin-top: 50px;
+  display: inline-flex;
 }
 
+div.selections {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  width: 100%;
+  height: 100%;
+}
 .main {
   background-color: bisque;
-  display: flex;
-}
-footer {
-  background-color: white;
 }

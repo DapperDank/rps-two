@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>PROJECT: ROCK PAPER SCISSORS</title>
@@ -7,18 +7,30 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-    <header id="top">
+    <header>
       <h1>Rock Paper Scissors: In The Broswer Edition</h1>
-      <h4>By: @DyzairDorn</h4>
+      <strong>By: @DyzairDorn</strong>
     </header>
-    <div id="main">
+    <div class="score" id="scoreboard">
       <span id="player">player</span>
       <span id="playerScore">0</span>
-      <span>score</span>
+      <span>:</span>
       <span id="computerScore">0</span>
       <span id="computer">computer</span>
     </div>
-    <p></p>
-    <footer id="bottom"></footer>
+    <div class="selections">
+      <div class="selection" id="r">
+        <img src="images/rock.png" alt="Rock-Image" />
+      </div>
+      <div class="selection" id="p">
+        <img src="images/paper.png" alt="Paper-Image" />
+      </div>
+      <div class="selection" id="s">
+        <img src="images/scissors.png" alt="Scissors-Image" />
+      </div>
+    </div>
+    <div class="result">
+      <span class="theresult">You won this round!</span>
+    </div>
   </body>
 </html>
