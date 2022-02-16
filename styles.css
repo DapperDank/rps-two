@@ -1,4 +1,17 @@
 * {
-  background-color: bisque;
+  /* background-color: bisque; */
   text-align: center;
+  flex-direction: column;
+}
+
+header {
+  background-color: white;
+}
+
+.main {
+  background-color: bisque;
+  display: flex;
+}
+footer {
+  background-color: white;
 }
